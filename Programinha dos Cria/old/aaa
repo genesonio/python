@@ -1,0 +1,12 @@
+close_ref = ''
+open_ref = ''
+
+if kline['open'] >= ema8[-1] and kline['close'] > ema8[-1]:
+    close_ref = kline['close']
+    open_ref = kline['open']
+
+
+if close_ref > open_ref:
+    if price >= close_ref call
+if close_ref < open_ref:
+    if price <= close_ref put

@@ -1,0 +1,6 @@
+time = ('Améria-MG', 'Athletico-PR', 'Atlético Goianiense', 'Atlético Mineiro', 'Avaí', 'Botafogo', 'Ceará', 'Corinthians', 'Coritiba', 'Cuiabá', 'Flamengo', 'Fluminense', 'Fortaleza', 'Goiás', 'Internacional', 'Juventude', 'Palmeiras', 'Bragantino', 'Santos', 'São Paulo')
+print(f'Lista de times do brasileirão: {time}')
+print(f'Os 5 primeiros são: {time[:5]}')
+print(f'Os 4 últimos são: {time[-4:]}')
+print(f'Times em ordem alfabética: {sorted(time)}')
+print(f'O Coritiba está na {time.index("Coritiba")+1}ª posição')

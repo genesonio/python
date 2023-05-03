@@ -1,0 +1,10 @@
+tn = int(input('Quantos termos de Fibonacci gostaria de ver? '))
+nt = 0
+f = 0
+f1 = 1
+while nt != tn:
+    f3 = f + f1
+    print(f, end=' ')
+    f = f1
+    f1 = f3
+    nt += 1
